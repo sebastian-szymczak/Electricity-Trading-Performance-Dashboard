@@ -87,7 +87,7 @@ The main line chart was used to represent the values of all parameters above as 
           return
           if (MAX(rtee[price]) = x, x, BLANK())
    
-  (c) DKR (Daily Settlement Rate) - the parameter determined as the average price of the last 10 transactions (or less if there were fewer transactions) on a given   day.
+  (c) DKR (Daily Clearing Price) - the parameter determined as the average price of the last 10 transactions (or less if there were fewer transactions) on a given   day.
 
           dkr = LASTNONBLANKVALUE('calendar'[date],
                     CALCULATE(
