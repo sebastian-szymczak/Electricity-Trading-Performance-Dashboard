@@ -95,11 +95,11 @@ The main line chart was used to represent the values of all parameters above as 
                     )
                 )
   
-  (e) YTD (Year to Date)
+  (d) YTD (Year to Date)
 
           ytd = CALCULATE([wavg_price], 'calendar'[date] <= MAX('calendar'[date]), DATESYTD('calendar'[date]))
  
-  (f) Average Daily Volume
+  (e) Average Daily Volume
 
           avg_volume = DIVIDE(SUM(rtee[volume]), SUM(working_days[working]))
          
