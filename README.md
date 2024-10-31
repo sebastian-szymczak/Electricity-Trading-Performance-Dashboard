@@ -42,8 +42,8 @@ Calculated parameters are very important in terms of the market, because on thei
 
 ![model](https://github.com/user-attachments/assets/03033839-db27-416b-a338-143bfd61b7ab)
 
-- Step 6: Visual filters (slicers) were added for each type of Contract and every month and year.
-- Step 7: Using DAX expressions, new measures were created to calculate the following parameters:
+- Step 6: The visual filters (slicers) were added for each type of Contract and every month and year.
+- Step 7: Using DAX expressions, the new measures were created to calculate the following parameters:
   
   (a) Weighted Average Price
 
@@ -71,7 +71,7 @@ The main line chart was used to represent the values of all parameters above as 
 
   (b) Volume - as the sum of all values
 
-- Step 9: Using DAX expressions, new measures were created to calculate the following parameters:
+- Step 9: Using DAX expressions, the new measures were created to calculate the following parameters:
   
   (a) Minimum Price
 
@@ -107,7 +107,7 @@ A set of card visuals was used to represent the values of all indicators above, 
 
 ![cards](https://github.com/user-attachments/assets/de509c01-6fa0-46b2-97b1-cf55f4d5d581)
         
-- Step 10: Using DAX expressions, new measure was created to calculate the difference between weighted average and YTD prices.
+- Step 10: Using DAX expressions, the new measure was created to calculate the difference between weighted average and YTD prices.
 
           diff_ytd = IF ([wavg_price]=BLANK(), BLANK(), [wavg_price]-[ytd])
 
