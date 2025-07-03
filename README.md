@@ -2,7 +2,7 @@
 
 ### Dashboard link: https://app.powerbi.com/groups/me/reports/e195a17e-465f-4090-bcdc-139723f3882c/ReportSection
 
-A Power BI solution analyzing contract statistics and delivery patterns on the Organised Trading Facility / Towarowa Giełda Energii S.A.
+A Power BI solution analyzing contract statistics and delivery patterns on the Polish Power Exchange's OTF platform.
 
 ## Problem Statement
 
